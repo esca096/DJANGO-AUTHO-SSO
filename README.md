@@ -16,8 +16,8 @@ Ce projet Django permet a une application django d'interagir avec les reseaux so
 - **pip install django-crispy-forms crispy-bootstrap5**
  on aura a ajouter ces codes dans les APPS django
 
-    **'crispy_forms',
-    'crispy_bootstrap5',**
+    - **'crispy_forms',**
+    - **'crispy_bootstrap5',**
   
   suivi de:
   
