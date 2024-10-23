@@ -2,7 +2,7 @@
 
 Ce projet Django permet a une application django d'interagir avec les reseaux sociaux comme google, facebook ou github pour ce connecter rapidement
 
-On aura besion d'intaller beaucoup de librairie comme:
+# On aura besion d'intaller beaucoup de librairie comme:
 
 - **pip install django-allauth**
 - **pip install requests**
@@ -11,10 +11,9 @@ On aura besion d'intaller beaucoup de librairie comme:
 - **pip install requests_oauthlib**
 
 
-On aura besion de crispy forms pour l'agencement du formulaire, pour cela on utiliser bootstrap 5 en installant:
+# On aura besion de crispy forms pour l'agencement du formulaire, pour cela on utiliser bootstrap 5 en installant:
 
 - **pip install django-crispy-forms crispy-bootstrap5**
-- 
  on aura a ajouter ces codes dans les APPS django
 
     **'crispy_forms',
@@ -22,9 +21,9 @@ On aura besion de crispy forms pour l'agencement du formulaire, pour cela on uti
   
   suivi de:
   
-  # Configuration de Crispy Forms
-**CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
-CRISPY_TEMPLATE_PACK = "bootstrap5"**
+   Configuration de Crispy Forms
+- **CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"**
+- **CRISPY_TEMPLATE_PACK = "bootstrap5"**
 
 dans le settings.py
 
